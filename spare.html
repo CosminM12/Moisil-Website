@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ro">
+	<head>
+		<title>Ştiri &bull;  Liceul &quot;Grigore Moisil&quot; Timişoara</title>
+		<meta name="description" content="Site-ul oficial &quot;Grigore Moisil&quot; Timişoara  Ştiri" />
+		<meta name="keywords" content="moisil,timisoara,liceu," />
+		<meta name="robots" content="index, follow" />
+		<meta name="language" content="ro" />
+		<meta name="generator" content="WSP 0.4.7" />
+		<meta name="google-site-verification" content="HeDftm5az-gTVHN5dyVYReWhAt5m1rPKMx5vWFE_GxY" />
+		<link rel="stylesheet" type="text/css" href="/themes/blue_fl/css/style.css.php" title="Blue_fl (ecran)" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="/themes/blue_fl/css/print.css.php" media="print" />
+		<link rel="alternate" type="application/rss+xml" href="/feed/" />
+		<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+		<script type="text/javascript" src="/js/load.js.php"></script>
+	</head>
+	<body>		
+	<div id="container">
+		<div id="header">&nbsp;</div>
+		<div id="navigation">
+				<a href="/">home</a>
+		</div>
+		<div id="miniheader"></div>	
+		<div id="body">
+			<div id="nav">
+				<h1>Cãutare</h1>
+				<form action="/cautare/" method="post">
+						<div id="searchform">
+							<input type="hidden" name="blowfish" value="WVBn0b7tZM" />
+							<label for="q">&nbsp;</label><input type="text" name="q" value="cautã..."  id="q" onfocus="this.value=''" />
+							<input type="submit" value="Cauta!" class="hidden" name="sent_search" />
+						</div>
+				</form>
+					<h1>&nbsp;</h1>				
+					<ul>
+						<li><a href="/" title="Acasã" rel="home">home</a></li>
+						<li><a href="/despre/" title="Despre" rel="despre">despre noi</a></li>
+						<li><a href="/admitere/" title="Admitere" rel="Admitere">admitere</a></li>
+						<li><a href="/invatamant/" title="Invatamant" rel="Invatamant">&#206;nv&#259;&#355;&#259;m&#226;nt primar</a></li>
+
+						<li><a href="/clasa/" title="Clase" rel="clasa">clase</a></li>			<li><a href="/alumni/" title="Absolvenţi" rel="alumni">alumni</a></li>			<li><a href="/profesori/" title="Profesori" rel="profesori">profesori</a></li>											
+						<li><a href="/links/" title="Link-uri" rel="links">link-uri</a></li>
+						<li><a href="/galerie/" title="Galerie" rel="gallery">galerie foto</a></li>
+						<li><a href="/proiecte/" title="Proiecte" rel="proiecte">proiecte</a></li><li><a href="/biblioteca/">bibliotecă</a></li>
+						<li><a href="/contact/" title="Contact" rel="contact">contact</a></li>
+					</ul>
+					<script type="text/javascript">
+			//<![CDATA[
+				jLoad();
+				jLoad("jquery.validate");
+			///]]>
+			</script>
+			<script type="text/javascript">
+			//<![CDATA[
+
+				$(document).ready(function(){
+					$("#login").validate({
+						rules : {
+							username:"required",
+							password:"required"
+						},
+						messages :{
+							username: "Trebuie sa specificati un username!",
+							password: "Trebuie sa introduceti o parola!"
+						},
+						errorLabelContainer: "#erori",
+						wrapper:"li"
+					});
+					$("#openid").validate({
+						rules: {
+							url:"required"
+						},
+						messages :{
+							url:"Trebuie sa completati URL-ul!"
+						},
+						errorLabelContainer: "#erori2",
+						wrapper:"li"
+					});
+					$("#openid").hide("fast");
+					$("#username").focus();
+					
+				});
+				function swap()
+				{
+					$("#login").toggle("slow");
+					$("#openid").toggle("slow");
+				}
+			//]]>
+			</script>
+			<h1>Autentificare</h1>
+					<form action="/login/" method="post" id="login">
+						<div id="loginform">
+							<label for="username">Utilizator:</label><br />
+							<input type="text" name="username" id="username" /><br /><br />
+							<label for="password">Parola:</label><br />
+							<input type="password" name="password" id="password" /><br />
+							<label for="remeber">ţine-mã minte</label> <input type="checkbox" name="remember" id="remeber" /><br /><br />
+							<input type="submit" name="login" value="login" />
+							<input type="hidden" name="blowfish" value="WVBn0b7tZM" />
+						</div>
+						<div id="erori" style="width:auto;"></div>
+					</form>
+					<a href="#openid" onclick="swap()"><img src="/img/openid.gif" alt="" /> OpenID? </a>
+					<form action="/openid/" method="post" id="openid" style="display:none;">
+						<div>
+							<label for="url">OpenID URL:</label><input id="url" name="url" style="width:100px;" value="http://" />
+							<input type="submit" name="open_login" value="Login" /><br />
+							<input type="hidden" name="blowfish" value="WVBn0b7tZM" />
+							<a href="http://openid.net">Ce este OpenID?</a>
+						</div>
+						<div id="erori2" style="width:auto;"></div>
+					</form>
+				</div>
+				<div id="content">					
+					<script type="text/javascript">
+ 				//<![CDATA[
+ 					jLoad();
+ 				//]]>
+				</script>
+				<script type="text/javascript">
+ 				//<![CDATA[
+ 					$(document).ready(function () {
+						if($(".extra").length)
+							load_js("split");
+					});
+ 				//]]>
+				</script> 	
+ 				<div id="blog"><div class="articol">
+ 				<h1>OLIMPIADA &quot;ȘTIINȚE PENTRU JUNIORI&quot; - etapa județeană</h1>
+ 				<div class="author">
+ 						postat de <a href="/profesori/Sporea-Iacob_Florina/">Sporea-Iacob Florina</a> la 8 May 2023
+						<br /> 				
+ 				</div>
+ 				<p><strong><span style="text-decoration:underline;"><span style="color:#000000;"><a href="http://info.tm.edu.ro/uploads/rezultate%20finale%20-%20osj%202023.pdf">REZULTATE FINALE</a></span></span></strong></p></div><div class="articol">
+ 				<h1>OLIMPIADA &quot;ȘTIINȚE PENTRU JUNIORI&quot; - etapa județeană</h1>
+ 				<div class="author">
+ 						postat de <a href="/profesori/Sporea-Iacob_Florina/">Sporea-Iacob Florina</a> la 6 May 2023
+						<br /> 				
+ 				</div>
+ 				<p><strong><span style="color:#000000;"><span style="text-decoration:underline;"><a href="http://info.tm.edu.ro/uploads/rezultate%20par%C8%9Biale-osj%202023.pdf">REZULTATE PARȚIALE</a></span></span></strong></p>
+<p>-Contestațiile se depun luni, 8 mai 2023, până la ora 12, la secretariatul Liceului Teoretic "Grigore Moisil" (clădirea gimnaziului - Piața N.Bălcescu nr.3). Se va depune câte o cerere pentru fiecare disciplină. Contestația vizează doar lucrarea proprie.</p>
+<p>-Rezolvarea contestațiilor: luni, 8 mai 2023, între orele 14 și 16.</p>
+<p>-Rezultatele finale vor fi afișate după rezolvarea contestațiilor.</p></div><div class="articol">
+ 				<h1>Olimpiada &quot;Științe pentru Juniori&quot;</h1>
+ 				<div class="author">
+ 						postat de <a href="/profesori/Sporea-Iacob_Florina/">Sporea-Iacob Florina</a> la 5 May 2023
+						<br /> 				
+ 				</div>
+ 				<p>Etapa județeană a Olimpiadei "Științe pentru Juniori" are loc la Liceul Teoretic "Grigore Moisil" Timișoara în data de 06.05.2023, între orele 10 - 13.</p>
+<p>Accesul elevilor în sală este permis până la ora 9.30. Elevii înscriși vor avea asupra lor carnetul de elev și cartea de identitate sau certificatul de naștere, stilou sau pix cu pastă albastră, creion, calculator neprogramabil.</p>
+<p><strong><span style="text-decoration:underline;"><a href="http://info.tm.edu.ro/uploads/repartizarea%20elevilor-osj%202023.pdf">Repartizarea elevilor</a></span></strong></p></div><div class="articol">
+ 				<h1>SELECȚIA ELEVILOR ÎN VEDEREA ADMITERII ÎN CLASA A V-A CU PROGRAM INTENSIV DE STUDIU AL LIMBII ENGLEZE</h1>
+ 				<div class="author">
+ 						postat de <a href="/profesori/Borsa_Florin/">Borsa Florin</a> la 5 May 2023
+						<br /> 				
+ 				</div>
+ 				<p style="margin:0px;padding:0px;font-family:Tahoma, Verdana, sans-serif;font-size:13px;background-color:#e8eef5;text-align:center;"><strong>Liceul Teoretic “Grigore Moisil” Timișoara anunță selecția elevilor în vederea admiterii în clasa a V-a cu program intensiv de studiu al limbii engleze.</strong></p>
+<p style="margin:0px;padding:0px;font-family:Tahoma, Verdana, sans-serif;font-size:13px;background-color:#e8eef5;"><strong><em>Susținerea testului de competențe lingvistice</em></strong> va avea loc în data de 30.05.2023.</p>
+<p style="margin:0px;padding:0px;font-family:Tahoma, Verdana, sans-serif;font-size:13px;background-color:#e8eef5;">Testul va cuprinde:</p>
+<p style="margin:0px;padding:0px;font-family:Tahoma, Verdana, sans-serif;font-size:13px;background-color:#e8eef5;"><strong>PROBA ORALĂ – 75 puncte</strong></p>
+<p style="margin:0px;padding:0px;font-family:Tahoma, Verdana, sans-serif;font-size:13px;background-color:#e8eef5;">a) <em>Etapa I </em>– Lecturarea cu voce tare a unui text în limba engleză din unul dintre manualele alternative pentru clasele a III-a şi a IV-a și formularea de răspunsuri la 2-3 întrebări înscrise pe biletul de testare <strong><em>(50 puncte)</em></strong></p>
+<p style="margin:0px;padding:0px;font-family:Tahoma, Verdana, sans-serif;font-size:13px;background-color:#e8eef5;">b) <em>Etapa a II-a </em>– Realizarea unui dialog interactiv (elev-elev) pe o temă dată, având unul dintre membrii comisiei drept moderator <strong><em>(25 puncte)</em></strong></p>
+<p style="margin:0px;padding:0px;font-family:Tahoma, Verdana, sans-serif;font-size:13px;background-color:#e8eef5;"><strong>PROBA SCRISĂ - </strong>timp de lucru - 1 oră – <strong>25 puncte</strong></p>
+<p style="margin:0px;padding:0px;font-family:Tahoma, Verdana, sans-serif;font-size:13px;background-color:#e8eef5;">Redactarea unui text de 50–75 cuvintepe o temă dată</p>
+<p style="margin:0px;padding:0px;font-family:Tahoma, Verdana, sans-serif;font-size:13px;background-color:#e8eef5;"><strong> </strong></p>
+<p style="margin:0px;padding:0px;font-family:Tahoma, Verdana, sans-serif;font-size:13px;background-color:#e8eef5;"><strong><em>Perioada de înscriere</em></strong> va fi 15.05 - 22.05.2023</p>
+<p style="margin:0px;padding:0px;font-family:Tahoma, Verdana, sans-serif;font-size:13px;background-color:#e8eef5;">Documentele necesare înscrierii vor fi afișate  pe site-ul liceului.</p>
+<p style="margin:0px;padding:0px;font-family:Tahoma, Verdana, sans-serif;font-size:13px;background-color:#e8eef5;"> </p>
+<p style="margin:0px;padding:0px;font-family:Tahoma, Verdana, sans-serif;font-size:13px;background-color:#e8eef5;"><em>Notă:</em></p>
+<p style="margin:0px;padding:0px;font-family:Tahoma, Verdana, sans-serif;font-size:13px;background-color:#e8eef5;"><em>Elevii care, anterior înscrierii în clasa a V-a au susţinut examene de competenţă lingvistică într-o limbă de circulaţie internaţională şi au obţinut o diplomă nivel A1 sau nivel superior sunt admişi fără a mai susţine proba de verificare a cunoştinţelor la limba modernă respectivă, <strong>NUMAI DACĂ</strong> <strong>numărul </strong></em><strong><em>total al elevilor care optează pentru acest tip de clase este mai mic sau egal cu numărul de locuri aprobat</em></strong><em> pentru clasele cu predare în regim intensiv a unei limbi de circulaţie internaţională. </em>(OMEN nr. 4797/31.08.2017, Art. 7)</p>
+<p style="margin:0px;padding:0px;font-family:Tahoma, Verdana, sans-serif;font-size:13px;background-color:#e8eef5;"><strong> </strong></p>
+<p style="margin:0px;padding:0px;font-family:Tahoma, Verdana, sans-serif;font-size:13px;background-color:#e8eef5;">Număr de locuri aprobat: 1 clasă, 29 elevi</p>
+<p style="margin:0px;padding:0px;font-family:Tahoma, Verdana, sans-serif;font-size:13px;background-color:#e8eef5;"> </p>
+<p style="margin:0px;padding:0px;font-family:Tahoma, Verdana, sans-serif;font-size:13px;background-color:#e8eef5;"><a href="http://info.tm.edu.ro/uploads/procedura_admitere_clasa_5_intensiv_engleza_2023.pdf">Procedura admitere clasa  a V-a intensiv engleza 2023</a></p>
+<p style="margin:0px;padding:0px;font-family:Tahoma, Verdana, sans-serif;font-size:13px;background-color:#e8eef5;"> </p></div><div class="articol">
+ 				<h1>Concursul interjudetean de chimie ,,Noi si Chimia!?,,</h1>
+ 				<div class="author">
+ 						postat de <a href="/profesori/Mocanu_Ramona/">Mocanu Ramona</a> la 3 May 2023
+						<br /> 				
+ 				</div>
+ 				<p><span style="font-size:small;"><span style="color:#888888;"><strong>Samfescu Veronica -cls 7C  Premiul I</strong></span></span></p>
+<p><span style="font-size:small;"><span style="color:#888888;"><strong>Șerpe Maria - cls 7C Premiul I</strong></span></span></p>
+<p><span style="font-size:small;"><span style="color:#888888;"><strong>Păcurari Sofia -cls 7D Premiul I</strong></span></span></p>
+<p><span style="font-size:small;"><span style="color:#888888;"><strong>Păduraru Krista -cls 7D Premiul II</strong></span></span></p>
+<p><span style="font-size:small;"><span style="color:#888888;"><strong>Boldea Șerban Sabin -cls 7D Premiul II</strong></span></span></p>
+<p><span style="font-size:small;"><span style="color:#888888;"><strong>Reviczky-Levay Agnes -cls 7D Premiul II</strong></span></span></p>
+<p><span style="font-size:small;"><span style="color:#888888;"><strong>Mustea Teodora Maria -cls 7F Premiul II</strong></span></span></p>
+<p><span style="font-size:small;"><span style="color:#888888;"><strong>Parfene Maya - cls 7F Premiul II</strong></span></span></p>
+<p><span style="font-size:small;"><span style="color:#888888;"><strong>Păunescu Andrei -cls 7F Premiul II</strong></span></span></p>
+<p><span style="font-size:small;"><span style="color:#888888;"><strong>Felicitări!</strong></span></span></p></div></div><a href="/2/" class="morelink">pagina 2</a><br class="clear" />
+				</div>
+			<br class="clear" />				
+			</div>
+			<div id="minifooter"></div>
+	</div>
+	<div id="footer">
+				&copy; 2023  Liceul &quot;Grigore Moisil&quot; Timişoara<br />
+				<div style="font-size:80%; margin-top:5px;">Powered by <a href="http://andreiz.ro">WSP 0.4.7</a></div>
+			</div>
+			<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(["_setAccount", "UA-3198803-13"]);
+  _gaq.push(["_trackPageview"]);
+
+  (function() {
+    var ga = document.createElement("script"); ga.type = "text/javascript"; ga.async = true;
+    ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
+    var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>	</body>
+</html>
